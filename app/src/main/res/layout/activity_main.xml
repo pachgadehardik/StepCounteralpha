@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:gravity="center"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/tv_speed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.07"
+        android:text="0.0kmph" />
+
+    <Chronometer
+        android:id="@+id/chronometer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.07" />
+
+    <TextView
+        android:id="@+id/tv_distance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.07"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/tv_steps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.11"
+        android:gravity="center" />
+
+
+    <Button
+    android:id="@+id/btn_start"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Start Pedometer"
+    />
+
+<Button
+    android:id="@+id/btn_pause"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Pause"
+    />
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="RESTART" />
+
+</LinearLayout>
